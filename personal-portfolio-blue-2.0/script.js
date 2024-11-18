@@ -25,3 +25,13 @@ menuIcon.onclick = () => {
     console.log(navbar.classList); // Verifica se a classe 'active' está sendo adicionada
     console.log('Menu clicado!'); // Para verificar no console
 };
+
+document.getElementById('downloadBtn').addEventListener('click', function(event) {
+    event.preventDefault(); // Impede o comportamento padrão do link
+    const link = document.createElement('a');  // Cria um link temporário
+    link.href = 'images/curriculo_tradicional.pdf'; // Caminho para o arquivo PDF
+    link.download = 'curriculo_tradicional.pdf'; // Nome do arquivo que será baixado
+    document.body.appendChild(link);  // Adiciona o link temporário ao DOM
+    link.click();  // Simula o clique no link
+    document.body.removeChild(link);  // Remove o link temporário
+});
