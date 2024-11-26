@@ -8,7 +8,7 @@ Cada pasta dentro deste repositório representa um portfolio distinto, com difer
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/MagOss27/nome-do-repositorio.git
    cd nome-do-repositorio
 
 2. Entre na pasta do projeto que deseja testar e siga as instruções no respectivo README.md para rodar localmente.
